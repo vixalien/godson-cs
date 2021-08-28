@@ -1,0 +1,32 @@
+{
+  "name": "godson-cs",
+  "version": "0.0.0",
+  "description": "Godson Joint is coming soon!!",
+  "private": true,
+  "scripts": {
+    "build": "explosiv build",
+    "start": "explosiv serve",
+    "dev": "explosiv dev",
+    "prebuild": "stylus stylus/app.styl -o public/css/app.css -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixalien/godson-cs.git"
+  },
+  "keywords": [
+    "godson",
+    "joint",
+    "coming",
+    "soon"
+  ],
+  "author": "vixalien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vixalien/godson-cs/issues"
+  },
+  "homepage": "https://github.com/vixalien/godson-cs#readme",
+  "dependencies": {
+    "explosiv": "^2.5.1",
+    "stylus": "^0.54.8"
+  }
+}

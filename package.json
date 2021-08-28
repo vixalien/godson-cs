@@ -7,7 +7,7 @@
     "build": "explosiv build",
     "start": "explosiv serve",
     "dev": "explosiv dev",
-    "prebuild": "stylus stylus/app.styl -o public/css/app.css -c"
+    "prebuild": "stylus stylus/app.styl -o public/css/app.css -c && stylus stylus/fonts.styl -o public/css/fonts.css -c"
   },
   "repository": {
     "type": "git",

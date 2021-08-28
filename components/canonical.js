@@ -5,7 +5,6 @@ let origin = () => {
 	// } else {
 	// 	origin = process.env.URL
 	// }
-	return "https://godsonjoint.com"
 	return process.env.URL
 }
 

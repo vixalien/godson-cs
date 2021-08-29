@@ -3,7 +3,7 @@ import Canonical from "../components/canonical.js"
 export default () => {
 	return <>
 		<Head>
-			<title>Godson Joint is Coming Soon</title>
+			<title>Godson Joint - Coming Soon</title>
 			<Canonical path='/'/>
 			<meta name="description" content="Godson Joint is coming soon"/>
 		</Head>
